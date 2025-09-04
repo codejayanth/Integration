@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS energinet_data (
+    id SERIAL PRIMARY KEY,
+    Minutes5UTC TIMESTAMP NOT NULL,
+    Minutes5DK TIMESTAMP NOT NULL,
+    PriceArea VARCHAR(10) NOT NULL,
+    CO2Emission FLOAT NOT NULL
+);
